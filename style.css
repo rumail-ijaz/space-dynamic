@@ -1,0 +1,633 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+#firstdiv {
+    height: 6em;
+    width: 100%;
+    position: sticky;
+    top: 0em;
+    background-color: #f7f7f7;
+    z-index: 1;
+    /* border: 1px solid red; */
+}
+
+#firstdiv h4 {
+    position: absolute;
+    top: 1.5em;
+    left: 3.2em;
+    font-family: sans-serif;
+    font-size: 23px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #03a4ed;
+    cursor: pointer;
+}
+
+#navbar {
+    position: relative;
+    top: 2.5em;
+    left: 21em;
+    width: 40em;
+    /* border: 1px solid red; */
+}
+
+#navbar li {
+    display: inline-block;
+}
+
+#navbar a {
+    color: black;
+    text-decoration: none;
+    font-family: sans-serif;
+    margin-left: 2.3em;
+    letter-spacing: 1px;
+}
+
+#navbar a:hover {
+    color: red;
+}
+
+.contact {
+    position: relative;
+    top: 0.5em;
+    left: 65em;
+    font-family: sans-serif;
+    height: 2.6em;
+    width: 9.4em;
+    border-radius: 2em;
+    box-sizing: border-box;
+    padding: 0.7em 1.4em;
+    letter-spacing: 1px;
+    /* border: 1px solid red; */
+    background-color: red;
+    /* color: #fff; */
+    cursor: pointer;
+}
+
+.contact:hover {
+    background-color: #03a4ed;
+}
+
+#seconddiv {
+    position: relative;
+    height: 54em;
+    width: 100%;
+    /* border: 1px solid red; */
+}
+
+#seconddiv h6 {
+    position: relative;
+    top: 9.1em;
+    left: 4.4em;
+    width: 18em;
+    font-size: 17px;
+    letter-spacing: 1px;
+    font-family: sans-serif;
+    color: red;
+    font-weight: 500;
+}
+
+#seconddiv h2 {
+    position: relative;
+    top: 3em;
+    left: 1.4em;
+    width: 8em;
+    font-size: 3.5em;
+    line-height: 72px;
+    font-family: sans-serif;
+    color: #2a2a2a;
+    font-weight: bold;
+    /* border: 1px solid red; */
+}
+
+#seconddiv p {
+    position: relative;
+    top: 13em;
+    left: 5em;
+    width: 35em;
+    font-family: sans-serif;
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 30px;
+    color: #2a2a2a;
+}
+
+#url {
+    position: relative;
+    top: 15em;
+    left: 5em;
+    width: 440px;
+    height: 66px;
+    background-color: #03a4ed;
+    border-radius: 33px;
+    border: none;
+    padding: 0px 25px;
+    color: #fff;
+    outline: none;
+    letter-spacing: 0.5px;
+    font-size: 15px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a div {
+    position: relative;
+    left: 24.8em;
+    top: 10.6em;
+    font-family: sans-serif;
+    height: 2.8em;
+    width: 9.4em;
+    border-radius: 2em;
+    box-sizing: border-box;
+    padding: 0.8em 1.6em;
+    letter-spacing: 0.5px;
+    /* border: 1px solid red; */
+    background-color: white;
+    text-underline-position: none;
+    color: red;
+}
+
+#seconddiv img {
+    position: relative;
+    top: -20em;
+    left: 42em;
+    height: 33em;
+    width: 34em;
+}
+
+#aboutthirddiv {
+    position: relative;
+    height: 40em;
+    width: 100%;
+    /* border: 1px solid red; */
+}
+
+#aboutthirddiv>img {
+    position: relative;
+    top: 0em;
+    left: -7em;
+    width: 126%;
+    height: 40em;
+    /* border: 1px solid purple; */
+
+}
+
+#aboutthirddiv #girlpic {
+    position: relative;
+    top: -28.8em;
+    left: 5em;
+    width: 20em;
+    height: 22em;
+    /* border: 1px solid purple; */
+
+}
+
+.dataanalysis {
+    position: relative;
+    top: -41em;
+    left: 8em;
+    height: 7em;
+    width: 20em;
+    /* border: 1px solid purple; */
+    display: inline-block;
+    margin-left: 2em;
+}
+
+.dataanalysis h4 {
+    position: relative;
+    top: -3.8em;
+    left: 4.6em;
+    color: white;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.dataanalysis p {
+    position: relative;
+    top: -4em;
+    left: 6.2em;
+    color: white;
+    font-family: sans-serif;
+    font-size: 15px;
+    color: white;
+    width: 16em;
+    line-height: 1.7em;
+}
+
+.web {
+    left: 28.2em;
+}
+
+#service4div {
+    position: relative;
+    width: 100%;
+    height: 46em;
+    /* border:1px solid green; */
+}
+
+#service4div h2 {
+    position: relative;
+    top: 5em;
+    left: 22em;
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    width: 15em;
+    line-height: 1.5em;
+}
+
+#service4div p {
+    position: relative;
+    top: 11em;
+    left: 41.3em;
+    font-family: sans-serif;
+    width: 32.3em;
+    line-height: 1.7em;
+}
+
+#service4div img {
+    position: relative;
+    top: 2em;
+    left: 4.5em;
+    height: 22em;
+    width: 31em;
+}
+
+.percentage {
+    position: relative;
+    top: -7em;
+    left: 41em;
+    height: 4em;
+    width: 32.5em;
+    /* border: 1px solid red; */
+    margin-top: 0.5em;
+}
+
+.percentage h4 {
+    font-family: sans-serif;
+    font-size: 18px;
+}
+
+.greyline {
+    position: relative;
+    top: 1em;
+    width: 100%;
+    border-radius: 3px;
+    height: 6px;
+    background-color: #f7eff1;
+}
+
+.redline {
+    position: absolute;
+    height: 100%;
+    width: 23.8em;
+    border-radius: 3px;
+    background-color: red;
+}
+
+.dusriredline {
+    width: 27em;
+}
+
+.tesriredline {
+    width: 29.3em;
+}
+
+#portfolio5div {
+    position: relative;
+    width: 100%;
+    height: 40em;
+    /* border: 1px solid royalblue; */
+}
+
+#portfolio5div h2 {
+    position: relative;
+    top: 2em;
+    left: 15.5em;
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    width: 11em;
+    line-height: 1.5em;
+}
+
+.girlindiv {
+    position: relative;
+    top: 12em;
+    left: 5em;
+    height: 13em;
+    width: 16em;
+    border-radius: 20px;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 50px;    
+    transition: all 0.5s;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px  rgb(0, 0, 0 , 10%);
+    background-color: #fff;
+    /* opacity: 1; */
+    display: inline-block;
+    margin-left: 1em;
+    /* z-index: 1 !important; */
+}
+.redbackdiv{
+    position: absolute;
+    top: 0em;
+    left: 0em;
+    z-index: -1 !important;
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+    background-color: red;
+    /* visibility: hidden; */
+    transition: all 0.5s;
+    cursor: pointer;
+    opacity: 0;
+}
+.redbackdiv h4{
+    color: white;
+    font-family: sans-serif;
+    position: relative;
+    left: 0.4em;
+    top: 1.5em;
+    font-weight: bold;
+    font-size: 19px;
+}
+.redbackdiv p{
+    color: white;
+    font-family: sans-serif;
+    position: relative;
+    top: 3em;
+    left: 3.3em;
+    width: 10em;
+    line-height: 2em;
+}
+.girlindiv:hover .redbackdiv{
+    opacity: 1;
+    top: -11em;
+    transition: all 0.5s;
+}
+.girlindiv:hover{
+    top: 17em;
+    transition: all 0.5s;
+}
+#blog6div {
+    position: relative;
+    width: 100%;
+    height: 63em;
+    /* border: 1px solid royalblue; */
+}
+#blog6div h2{
+    position: relative;
+    top: 3.5em;
+    left: 3em;
+    width: 14em;
+    font-size: 28px;
+    font-weight: 800;
+    font-family: sans-serif;
+    line-height: 1.7em;
+}
+#blog6div img{
+    position: relative;
+    left: 56em;
+    top: -6.2em;
+}
+#bigblogpic{
+    position: relative;
+    left: 5em;
+    top: -7em;
+    height: 30em;
+    width: 33.5em;
+    /* border: 1px solid red; */
+    border-radius: 15px;
+    background: url(./pics/big-blog-thumb.jpg);
+    background-size: cover;
+}
+#seodiv{
+    position: relative;
+    top: -13.5em;
+    left: 5em;
+    height: 14em;
+    width: 29.5em;
+    background-color: #fff;
+    box-shadow: 0px 0px 15px rgb(0 0 0 / 10%);
+    border-radius: 15px;
+}
+#seodiv li{
+    position: relative;
+    top: 2em;
+    left: 1.5em;
+    display: inline-block;
+    color: #afafaf;
+    font-family: sans-serif;
+    margin-left: 1.3em;
+}
+#seodiv li i{
+    position: relative;
+    left: -0.4em;
+    color: #ff4d61;
+}
+#seodiv h4{
+    font-family: sans-serif;
+    position: relative;
+    top: 3em;
+    left: 2em;
+    font-size: 18px;
+    font-weight: 800;
+    cursor: pointer;
+}
+#seodiv p{
+    font-family: sans-serif;
+    position: relative;
+    top: 4.5em;
+    left: 2.5em;
+    width: 24em;
+    line-height: 1.7em;
+}
+.discover{
+    position: relative;
+    top: -11em;
+    left: 5.5em;
+    background-color:#03a4ed;
+    color: #fff;
+    padding: 0.7em 1.3em;
+    letter-spacing: normal;
+    cursor: pointer;
+}
+.new{
+    position: relative;
+    top: -55.2em;
+    left: 42em;
+    height: 13em;
+    width: 31em;
+    /* border: 1px solid red; */
+    color: #afafaf;
+    margin-top: 2.2em;
+}
+.new i{
+    color: #ff4d61;
+}
+.new h4{
+    position: relative;
+    font-family: sans-serif;
+    color: black;
+    font-size: 18px;
+    font-weight: 800;
+    top: 1em;
+    width: 9em;
+}
+.new p{
+    position: relative;
+    top: 2.5em;
+    width: 12em;
+    line-height: 1.7em;
+    font-family: sans-serif;
+    color: black;
+}
+.redpic{
+    position: absolute;
+    top: 0em;
+    left: 15.3em;
+    height: 100%;
+    width: 15.6em;
+    border-radius: 18px;
+    background: url(./pics/blog-thumb-01.jpg);
+    background-size: cover;
+    /* border: 1px solid rebeccapurple; */
+}
+#message7div{
+    position: relative;
+    width: 100%;
+    height: 45em;
+    background: url(./pics/contact-bg.png);
+    background-size: cover;
+    background-position-x: -14.5em;
+}
+#message7div h2{
+    position: relative;
+    font-family: sans-serif;
+    color: white;
+    font-size: 1.9em;
+    font-weight: 700;
+    top: 8em;
+    left: 2em;
+    width: 18em;
+}
+#message7div p{
+    position: relative; 
+    top: 17.8em;
+    left: 4em;
+    width: 31em;
+    line-height: 1.8em;
+    font-family: sans-serif;
+    font-size: 17px;
+    color: white;
+}
+#message7div h4{
+    color: white;
+    font-family: sans-serif;
+    font-size: 1.3em;
+    position: relative;
+    top: 16.4em;
+    left: 3.2em;
+    font-weight: 800;
+}
+#phonediv{
+    position: relative;
+    left: 24em;
+    top: 19em;
+    background-color: #fff;
+    border-radius: 50%;
+    height: 3.2em;
+    width: 3.2em;
+    border: 1px solid red;
+    box-sizing: border-box;
+    padding: 1em;
+    color: #ff4d61;
+}
+#message7div  #phoneno{
+    position: relative;
+    left: 26.5em;
+    top: 15.5em;
+     /* border: 1px solid rebeccapurple; */
+     width: 7em;
+     cursor: pointer;
+}
+#whitediv{
+    position: relative;
+    top: -5.5em;
+    left: 41em;
+    height: 27.2em;
+    width: 34em;
+    border-radius: 15px;
+    background-color: #fff;
+}
+.input{
+    position: relative;
+    top:   2em;
+    left: 1.5em;
+    border-radius: 35px;
+    height: 3.3em;
+    width: 12em;
+    font-size: 15px;
+    padding: 0px 22px;
+    background-color: #d1f3ff;
+    color: #2a2a2a;
+    border: none;
+    outline: none;
+    display: inline-block;
+    margin-left: 1.2em;
+    margin-top: 1.5em;
+}
+.email{
+    width: 28.5em;
+}
+.message{
+    border-radius: 15px;
+    height: 9em;
+}
+.send{
+    position: relative;
+    top: 3.4em;
+    left: 3em;
+}
+.send:hover{
+    background-color:#ff4d61;
+}
+#lastdiv{
+    position: relative;
+    height: 10em;
+    width: 100%;
+    /* border: 1px solid gold; */
+}
+#lastdiv p{
+    position: relative;
+    top: 2.8em;
+    left: 27em;
+    font-family: sans-serif;
+    width: 27em;
+    line-height: 1.7em;
+    /* border: 1px solid gold; */
+}
+#lasttemplate{
+        color: #ff4d61;
+        cursor: pointer;
+}
+#lasttemplate:hover{
+    color: #03a4ed;
+}
+
+#url::placeholder
+{
+    color: white;
+}
